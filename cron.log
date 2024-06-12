@@ -12,3 +12,17 @@ Author identity unknown
 
 fatal: 메일 주소를 자동 검사할 수 없습니다 ('root@server.(none)' 찾음)
 fatal: could not read Password for 'https://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@github.com': 그런 장치 혹은 주소가 없음
+Author identity unknown
+
+*** 내가 누구인지 설정하십시오.
+
+다음을 실행하면,
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "내 이름"
+
+계정의 기본 신원 정보를 설정합니다.
+--global 옵션을 빼면 이 저장소서만 신원 정보를 설정합니다.
+
+fatal: 메일 주소를 자동 검사할 수 없습니다 ('root@server.(none)' 찾음)
+fatal: could not read Password for 'https://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@github.com': 그런 장치 혹은 주소가 없음
