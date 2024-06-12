@@ -1,6 +1,10 @@
 #!/bin/bash
 
-date>>/home/ubuntu/workspace/myGarden/a.txt
+date >> /home/ubuntu/workspace/myGarden/a.txt
 cd /home/ubuntu/workspace/myGarden
-bash myGarden.sh
+git add .
+git commit -m "update"
+git push 
+
+
 
